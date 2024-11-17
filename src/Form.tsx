@@ -46,8 +46,6 @@ export const Form = () => {
   React.useEffect(() => {
     if (watch('price.type') === 'fixed') {
       setValue('price.amount', undefined) // Placeholder of input is used as `amount` as it's declared as optional in the schema.
-    } else {
-      setValue('price.amount', { min: 1, max: 10 })
     }
   }, [watch('price.type')])
 
