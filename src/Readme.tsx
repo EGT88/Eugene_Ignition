@@ -103,6 +103,9 @@ export const Readme = () => (
       <Link fontSize="xl" mt="24px" as={RouterLink} to="/form">
         View Form Page
       </Link>
+      <Link fontSize="xl" mt="8px" as={RouterLink} to="/form2">
+        View Form Page 2 (Additional)
+      </Link>
     </Stack>
 
     <Stack spacing={3} mb={6}>

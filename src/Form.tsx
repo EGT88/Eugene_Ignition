@@ -91,6 +91,7 @@ export const Form = () => {
           <RadioField
             data-testid="radio"
             label="Price Type"
+            radioColor="blue.500"
             options={[
               { label: 'Fixed', value: 'fixed', testId: 'fixed-type' },
               { label: 'Range', value: 'range', testId: 'range-type' },
